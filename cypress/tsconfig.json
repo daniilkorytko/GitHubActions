@@ -1,0 +1,16 @@
+﻿{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "es5",
+      "dom"
+    ],
+    "types": [
+      "cypress"
+    ]
+  },
+  "include": [
+    "../node_modules/cypress",
+    "./**/*.ts"
+, "e2e/createNewAccount.spec.js"  ]
+}

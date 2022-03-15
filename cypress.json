@@ -1,0 +1,9 @@
+{
+  "baseUrl": "http://automationpractice.com/",
+  "video": false,
+  "integrationFolder": "cypress/e2e",
+  "testFiles": "**/*.spec.js",
+  "defaultCommandTimeout": 30000,
+  "viewportWidth": 1248,
+  "viewportHeight": 660
+}
