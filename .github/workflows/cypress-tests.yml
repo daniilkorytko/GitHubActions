@@ -13,5 +13,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
+          preinstall: "npx npm-force-resolutions || echo 1"
           build: npm run build
           start: npm start
