@@ -16,3 +16,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           start: npm test
+      - name: Cypress head run 
+        uses: cypress-io/github-action@v2
+        with:
+          start: headTest
